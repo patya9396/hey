@@ -13,7 +13,7 @@ public class Base {
     public static WebDriver driver;
 
 
-    public void chrome() {
+    public  void chrome() {
         System.setProperty("webdriver.chrome.driver", "C:\\webdriver\\chromedriver_win32\\chromedriver.exe");
         driver = new ChromeDriver();
 
